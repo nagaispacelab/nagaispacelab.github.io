@@ -109,6 +109,20 @@ ol li
   margin-bottom: 20px;
   border: 10px solid #DDD;}
 
+  #middle_content
+  {
+    width: 860px;
+    height: auto;
+    margin-bottom: 20px;
+    border: 0 solid #DDD;}
+
+    #Alumni_content
+    {
+      width: 860px;
+      height: auto;
+      margin-bottom: 20px;
+      border: 0 solid #DDD;}
+
 #logo
 { width: 880px;
   position: relative;
@@ -319,7 +333,7 @@ ul#menu li a:hover
   border-top: 1px solid #D9D5CF;
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;}
-
+/*
 table
 { margin: 10px 0 30px 0;}
 
@@ -333,3 +347,57 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+*/
+#h3_title {
+  color: #999;
+}
+#members {
+      font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+
+  }
+
+#members td, #members th {
+      border: 1px solid #ffffff;
+      padding: 8px;
+  }
+
+#members tr:nth-child(even){background-color: #ffffff;}
+
+#members tr:hover {background-color: #ffffff;}
+
+#members th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #4CAF50;
+      color: white;
+  }
+
+
+
+
+  #Alumni {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+
+    }
+
+  #Alumni td, #Alumni th {
+        border: 1px solid #ffffff;
+        padding: 8px;
+    }
+
+  #Alumni tr:nth-child(even){background-color: #ffffff;}
+
+  #Alumni tr:hover {background-color: #ffffff;}
+
+#Alumni th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color:  #B5BBBC;
+        color: white;
+    }
